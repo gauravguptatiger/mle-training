@@ -1,7 +1,10 @@
-#ignoring csv files
+#Ignoring folders
+datasets/
+
+#Ignoring csv files
 *.csv
 
-#ignoring pyc files
+#Ignoring pyc files
 *.pyc
 
 #log and databases
