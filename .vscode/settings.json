@@ -1,0 +1,23 @@
+{
+    "files.autoSave": "afterDelay",
+    "python.defaultInterpreterPath": "C:\\Users\\gaurav.gupta\\Miniconda3\\python.exe",
+    "editor.largeFileOptimizations": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "isort.args": [
+        "--profile",
+        "black"
+    ],
+    "python.linting.flake8Args": [
+        "--max-line-length=120"
+    ],
+}
