@@ -1,0 +1,13 @@
+#Ignoring folders
+datasets/
+
+#Ignoring csv files
+*.csv
+
+#Ignoring pyc files
+*.pyc
+
+#log and databases
+*.log
+*.sql
+*.sqlite
